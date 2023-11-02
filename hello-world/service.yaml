@@ -5,8 +5,8 @@ metadata:
   namespace: dev
 spec:
   type: NodePort
- selector:
-    app: hello-world
+  selector:
+      app: hello-world
   ports:
     - name: tcp
       port: 80
