@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: phpapp
-        image: 667838161883.dkr.ecr.ap-south-1.amazonaws.com/hello-world-1:hello-world-13
+        image: 636722499150.dkr.ecr.ap-south-1.amazonaws.com/hello-world-1:hello-world-3
         ports:
             - containerPort: 80
         resources:
